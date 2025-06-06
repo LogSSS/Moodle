@@ -1,0 +1,15 @@
+MOODLE_URL=http://localhost:8082 // URL to access Moodle
+
+MOODLE_DB_USER=postgres // Database user
+MOODLE_DB_PASSWORD= // Database password
+MOODLE_DB_NAME=postgres // Database name
+
+MOODLE_ADMIN= // Moodle admin username
+MOODLE_ADMIN_PASSWORD= // Moodle admin password
+MOODLE_ADMIN_EMAIL= // Moodle admin email
+
+MOODLE_REVERSE_LB=false // Set to true if using a reverse load balancer
+MOODLE_SSL=false // Set to true if using SSL
+
+MOODLE_EMAIL_TYPE_QMAIL=false // Set to true if using Qmail for email sending
+MOODLE_EMAIL_HOST= // Email host for sending emails
